@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pydantic-settings
+alembic
+pymysql  # MySQL驱动
+cryptography  # 用于MySQL连接加密
+requests  # HTTP请求库
