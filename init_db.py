@@ -7,6 +7,8 @@
 from app.config import settings
 from app.db.session import init_db, engine
 from app.models.mcp import Base
+from app.models.agent import Agent
+from app.models.ai_app import AIApp
 
 def create_tables():
     """创建表结构"""
